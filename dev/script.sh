@@ -1,15 +1,15 @@
 #!/bin/sh
 
-OUTPUT="database.json"
+OUTPUT="../database.json"
 
-if [ -f database.json ]
+if [ -f ../database.json ]
 then
-	rm database.json
+	rm ../database.json
 fi
 
 echo "{" >> $OUTPUT
 
-for i in "images"/*; do
+for i in "../images"/*; do
 	echo "    \"$(basename "$i")\": {" >> $OUTPUT # Make the directories JSON objects
 
 	for j in "$i"/*; do
