@@ -7,21 +7,21 @@ then
 	rm ../database.js
 fi
 
-echo "var categories = [" >> $FILE # List the image categories
+echo "var categories = [" >> $FILE # List the gif categories
 
-for i in "../images"/*; do
+for i in "../gifs"/*; do
 	echo "    \"$(basename "$i")\"," >> $FILE # Make the directories objects in an array
 done
 
 echo "]" >> $FILE
 
-echo "var images = [" >> $FILE # List the images
+echo "var gifs = [" >> $FILE # List the gifs
 
-for i in "../images"/*; do
+for i in "../gifs"/*; do
 	echo "    [" >> $FILE
 
 	for j in "$i"/*; do
-		echo "        \"$(basename "$j")\"," >> $FILE # Make each image a child of the category object
+		echo "        \"$(basename "$j")\"," >> $FILE # Make each gif a child of the category object
 	done
 
 	echo "    ]," >> $FILE

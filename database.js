@@ -5,7 +5,7 @@ var categories = [
     "Penguins",
     "Pugs",
 ]
-var images = [
+var gifs = [
     [
         "Dancing Jake.gif",
         "Dark Knight.gif",

@@ -3,20 +3,54 @@ var random = function(cap)
 	return Math.floor(Math.random() * cap)
 }
 
-var make_preview = function(category, image)
+var load_gif_previews = function() // Runs on page load
 {
-	var ul = document.getElementById('categories')
+	// if (special_url)
+	// {
+
+	// }
+	// else
+	// {
+		for (var i = 0; i < categories.length; i++)
+		{
+			make_preview(i, categories[i], gifs[i][random(gifs[i].length)])
+		}
+	// }
+}
+
+var make_preview = function(index, category, gif)
+{
+	var ul = document.getElementById('gifs')
 	var li = document.createElement('li')
 
+	li.onclick = function() { load_gif_category(index) }
 	li.innerHTML = "<div class = 'title'>" + category + "</div>"
-	li.style.backgroundImage = "url('images/" + category + "/" + image + "')"
+	li.style.backgroundImage = "url('gifs/" + category + "/" + gif + "')"
 	ul.appendChild(li)
 }
 
-var load_gifs = function()
+var load_gif_category = function(index)
 {
-	for (var i = 0; i < categories.length; i++)
+	clear_ul()
+
+	console.log(gifs[index])
+
+	for (var i = 0; i < gifs[index].length; i++)
 	{
-		make_preview(categories[i], images[i][random(images[i].length)])
+		show_gif(categories[index], gifs[index][i])
 	}
+}
+
+var clear_ul = function()
+{
+	document.getElementById('gifs').innerHTML = ''
+}
+
+var show_gif = function(category, gif)
+{
+	var ul = document.getElementById('gifs')
+	var li = document.createElement('li')
+
+	li.style.backgroundImage = "url('gifs/" + category + "/" + gif + "')"
+	ul.appendChild(li)
 }
