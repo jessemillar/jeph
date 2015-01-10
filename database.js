@@ -1,23 +1,30 @@
-{
-    "Adventure Time": {
+var categories = [
+    "Adventure Time",
+    "Corgis",
+    "Facepalms",
+    "Penguins",
+    "Pugs",
+]
+var images = [
+    [
         "Dancing Jake.gif",
         "Dark Knight.gif",
         "Jammin Jake.gif",
-    },
-    "Corgis": {
+    ],
+    [
         "Fishing.gif",
         "Lifejacket Jump.gif",
         "Pet Me.gif",
         "Snowball.gif",
         "Swing.gif",
         "Wake Up.gif",
-    },
-    "Facepalms": {
+    ],
+    [
         "Beast.gif",
         "Owl.gif",
         "Wolverine.gif",
-    },
-    "Penguins": {
+    ],
+    [
         "Boss.gif",
         "Drama.gif",
         "Feets.gif",
@@ -26,8 +33,8 @@
         "Penguin vs Sea Lion.gif",
         "Sliding.gif",
         "Superheroes.gif",
-    },
-    "Pugs": {
+    ],
+    [
         "Awkward.gif",
         "Chocolate Factory.gif",
         "Confused Pugs.gif",
@@ -39,5 +46,5 @@
         "Smiling.gif",
         "WUT.gif",
         "Windshield Wipers.gif",
-    },
-}
+    ],
+]

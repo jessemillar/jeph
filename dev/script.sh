@@ -1,22 +1,30 @@
 #!/bin/sh
 
-OUTPUT="../database.json"
+FILE="../database.js"
 
-if [ -f ../database.json ]
+if [ -f ../database.js ] # Kill the old database.js file if it exists
 then
-	rm ../database.json
+	rm ../database.js
 fi
 
-echo "{" >> $OUTPUT
+echo "var categories = [" >> $FILE # List the image categories
 
 for i in "../images"/*; do
-	echo "    \"$(basename "$i")\": {" >> $OUTPUT # Make the directories JSON objects
-
-	for j in "$i"/*; do
-		echo "        \"$(basename "$j")\"," >> $OUTPUT # Make each image a child of the object
-	done
-
-	echo "    }," >> $OUTPUT
+	echo "    \"$(basename "$i")\"," >> $FILE # Make the directories objects in an array
 done
 
-echo "}" >> $OUTPUT
+echo "]" >> $FILE
+
+echo "var images = [" >> $FILE # List the images
+
+for i in "../images"/*; do
+	echo "    [" >> $FILE
+
+	for j in "$i"/*; do
+		echo "        \"$(basename "$j")\"," >> $FILE # Make each image a child of the category object
+	done
+
+	echo "    ]," >> $FILE
+done
+
+echo "]" >> $FILE
