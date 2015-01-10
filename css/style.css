@@ -1,5 +1,5 @@
 body {
-	background-color: #ffffff;
+	background-color: #111111;
 }
 
 #categories {
@@ -18,9 +18,21 @@ body {
 
 		padding: 0px;
 		margin: 0px;
+
+		width: 240px;
+		height: 180px;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 
-		#categories img {
-			width: 240px;
-			height: 180px;
+		#categories .title {
+			color: #ffffff;
+			font-family: sans-serif;
+			font-size: 22px;
+			font-weight: bold;
+			line-height: 180px;
+			text-align: center;
+			text-transform: uppercase;
 		}
