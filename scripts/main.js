@@ -1,8 +1,16 @@
 var load_gifs = function()
 {
-	var i = categories.length
-	while (i--)
+	for (var i = 0; i < categories.length; i++)
 	{
-		console.log(categories[i])
+		make_preview(categories[i], images[i][0])
 	}
+}
+
+var make_preview = function(category, image)
+{
+	var ul = document.getElementById('categories')
+	var li = document.createElement('li')
+
+	li.innerHTML = "<a href = '#'><img src = 'images/" + category + '/' + image + "'></a>"
+	ul.appendChild(li)
 }
