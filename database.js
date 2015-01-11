@@ -1,6 +1,7 @@
 var categories = [
     "Adventure Time",
     "Corgis",
+    "Deal With It",
     "Facepalms",
     "Penguins",
     "Pugs",
@@ -18,6 +19,9 @@ var gifs = [
         "Snowball.gif",
         "Swing.gif",
         "Wake Up.gif",
+    ],
+    [
+        "Squirtle.gif",
     ],
     [
         "Beast.gif",

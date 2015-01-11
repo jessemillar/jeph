@@ -17,8 +17,6 @@ body {
 	padding: 0px;
 	margin: 0px;
 
-	overflow: hidden;
-
 	z-index: 0;
 }
 
@@ -35,6 +33,29 @@ body {
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+
+		#gifs .ghetto {
+			margin: 0px;
+			padding: 0px;
+
+			color: #ffffff;
+			font-family: sans-serif;
+			font-size: 30px;
+			font-weight: bold;
+			line-height: 250px;
+			text-align: center;
+			text-transform: uppercase;
+			white-space: nowrap;
+
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+
+			opacity: 0;
+		}
 
 		#gifs .title {
 			margin: 0px;

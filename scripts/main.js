@@ -73,6 +73,7 @@ var show_gif = function(category, gif)
 	var ul = document.getElementById('gifs')
 	var li = document.createElement('li')
 
+	li.innerHTML = "<div class = 'ghetto'>.</div>" // This sucks
 	li.style.backgroundImage = "url('gifs/" + category + "/" + gif + "')"
 	ul.appendChild(li)
 }
