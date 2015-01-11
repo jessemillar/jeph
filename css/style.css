@@ -30,7 +30,7 @@ body {
 		height: 250px;
 
 		background-image: url('../images/pattern.gif');
-		background-size: cover;
+		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
