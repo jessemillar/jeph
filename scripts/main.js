@@ -59,6 +59,10 @@ var load_category = function(index)
 
 			li.onclick = function() { window.open(location.href + '#' + category) }
 		}
+		else
+		{
+			li.onclick = function() { window.open('gifs/' + category + '/' + filename) }
+		}
 
 		ul.appendChild(li)
 	}
