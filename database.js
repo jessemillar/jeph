@@ -2,8 +2,11 @@ var categories = [
     "adventure time",
     "confident",
     "corgis",
+    "dancing",
+    "deal with it",
     "facepalms",
     "he-man",
+    "high five",
     "mind blown",
     "penguins",
     "pokemon",
@@ -31,6 +34,16 @@ var gifs = [
         "wake up.gif",
     ],
     [
+        "bane.gif",
+        "batman.gif",
+        "yoda.gif",
+    ],
+    [
+        "hamster.gif",
+        "sloth.gif",
+        "squirtle.gif",
+    ],
+    [
         "beast.gif",
         "owl.gif",
         "wolverine.gif",
@@ -39,6 +52,11 @@ var gifs = [
         "punch.gif",
         "unicorn.gif",
         "wall.gif",
+    ],
+    [
+        "corgi.gif",
+        "racoon.gif",
+        "turtles.gif",
     ],
     [
         "jimmy.gif",
