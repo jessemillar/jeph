@@ -49,7 +49,7 @@ var make_preview = function(index, category, gif)
 	var ul = document.getElementById('gifs')
 	var li = document.createElement('li')
 
-	li.onclick = function() { clear_ul(); location.href += '#' + category; load_gif_category(index);  }
+	li.onclick = function() { location.href += '#' + category; location.reload() }
 	li.innerHTML = "<div class = 'title'>" + category + "</div>"
 	li.style.backgroundImage = "url('gifs/" + category + "/" + gif + "')"
 	ul.appendChild(li)
@@ -61,11 +61,6 @@ var load_gif_category = function(index)
 	{
 		show_gif(categories[index], gifs[index][i])
 	}
-}
-
-var clear_ul = function()
-{
-	document.getElementById('gifs').innerHTML = ''
 }
 
 var show_gif = function(category, gif)
