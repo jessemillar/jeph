@@ -2,6 +2,7 @@ var categories = [
     "adventure time",
     "corgis",
     "facepalms",
+    "he-man",
     "penguins",
     "pokemon",
     "pugs",
@@ -24,6 +25,11 @@ var gifs = [
         "beast.gif",
         "owl.gif",
         "wolverine.gif",
+    ],
+    [
+        "punch.gif",
+        "unicorn.gif",
+        "wall.gif",
     ],
     [
         "boss.gif",
