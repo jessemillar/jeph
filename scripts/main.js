@@ -26,6 +26,8 @@ function getParameter()
 
 var init = function() // Runs on page load
 {
+	console.log(getParameter())
+
 	if (getParameter())
 	{
 		load_gif_category(getParameter())
@@ -44,14 +46,22 @@ var load_gif_previews = function()
 	}
 }
 
-var make_preview = function(index, category, gif)
+var make_preview = function(index, category, filename)
 {
 	var ul = document.getElementById('gifs')
 	var li = document.createElement('li')
+	var gif = document.createElement('div')
+	var title = document.createElement('div')
 
-	li.onclick = function() { location.href += '#' + category; location.reload() }
-	li.innerHTML = "<div class = 'title'>" + category + "</div>"
-	li.style.backgroundImage = "url('gifs/" + category + "/" + gif + "')"
+	gif.className = "gif"
+	gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')"
+	li.appendChild(gif)
+
+	title.className = "title"
+	title.innerHTML = category
+	li.appendChild(title)
+
+	li.onclick = function() { window.open(location.href + '#' + category) }
 	ul.appendChild(li)
 }
 
@@ -65,10 +75,21 @@ var load_gif_category = function(index)
 
 var show_gif = function(category, gif)
 {
+	// var ul = document.getElementById('gifs')
+	// var li = document.createElement('li')
+
+	// // li.innerHTML = "<div class = 'ghetto'>.</div>" // This sucks
+	// li.style.backgroundImage = "url('gifs/" + category + "/" + gif + "')"
+	// ul.appendChild(li)
+
 	var ul = document.getElementById('gifs')
 	var li = document.createElement('li')
+	var gif = document.createElement('div')
 
-	li.innerHTML = "<div class = 'ghetto'>.</div>" // This sucks
-	li.style.backgroundImage = "url('gifs/" + category + "/" + gif + "')"
+	gif.className = "gif"
+	gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')"
+	li.appendChild(gif)
+
+	// li.onclick = function() { window.open(location.href + '#' + category) }
 	ul.appendChild(li)
 }
