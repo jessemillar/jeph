@@ -59,10 +59,9 @@ body {
 			cursor: pointer;
 
 			color: #ffffff;
-			font-family: Impact, sans-serif;
-			font-size: 40px;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 35px;
 			font-weight: bold;
-			letter-spacing: 2px;
 			line-height: 250px;
 			text-align: center;
 			text-transform: uppercase;
