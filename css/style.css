@@ -81,7 +81,7 @@ body {
 				background-color: rgba(0, 0, 0, 0.75);
 			}
 
-@media (min-width: 650px) { /* This is for desktop */
+@media (min-width: 560px) { /* This is for small desktops */
 	#gifs li {
 		width: 50%;
 		height: 300px;
@@ -94,7 +94,7 @@ body {
 		}
 }
 
-@media (min-width: 950px) { /* This is for desktop */
+@media (min-width: 860px) { /* This is for desktop */
 	#gifs li {
 		width: 33.3%;
 		height: 300px;
@@ -107,7 +107,7 @@ body {
 		}
 }
 
-@media (min-width: 1250px) { /* This is for wide desktops */
+@media (min-width: 1160px) { /* This is for wide desktops */
 	#gifs li {
 		width: 25%;
 		height: 300px;
