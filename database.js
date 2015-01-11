@@ -1,8 +1,10 @@
 var categories = [
     "adventure time",
+    "confident",
     "corgis",
     "facepalms",
     "he-man",
+    "mind blown",
     "penguins",
     "pokemon",
     "pugs",
@@ -12,10 +14,17 @@ var gifs = [
         "dancing jake.gif",
         "dark knight.gif",
         "jammin jake.gif",
+        "mind blown.gif",
+    ],
+    [
+        "black man.gif",
+        "confident.gif",
+        "fox.gif",
     ],
     [
         "fishing.gif",
         "lifejacket jump.gif",
+        "mind blown.gif",
         "pet me.gif",
         "snowball.gif",
         "swing.gif",
@@ -30,6 +39,10 @@ var gifs = [
         "punch.gif",
         "unicorn.gif",
         "wall.gif",
+    ],
+    [
+        "jimmy.gif",
+        "old spice.gif",
     ],
     [
         "boss.gif",
