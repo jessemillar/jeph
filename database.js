@@ -3,7 +3,7 @@ var categories = [
     "aha",
     "awkward",
     "badawesome",
-    "banned",
+    "banhammer",
     "boom",
     "burn",
     "careful",
@@ -163,7 +163,6 @@ var gifs = [
     [
         "ace ventura.gif",
         "bboy bear.gif",
-        "cabbage patch.gif",
         "cookie monster.gif",
         "excited baby.gif",
         "excited kids.gif",
