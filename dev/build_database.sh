@@ -32,7 +32,7 @@ for i in "../gifs"/*; do
 	for j in "$i"/*; do
 		echo "        \"$(basename "$j")\"," >> $FILE # Make each gif a child of the category object
 
-		convert $(basename "$j") "../previews/$(basename "$i").png"
+		convert "../gifs/$(basename "$i")/$(basename "$j")[0]" "../previews/$(basename "$i")/$(basename "$j")"
 	done
 
 	echo "    ]," >> $FILE
