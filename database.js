@@ -24,6 +24,8 @@ var categories = [
     "excited",
     "facepalms",
     "fail",
+    "goats",
+    "gravity falls",
     "haters gonna",
     "he-man",
     "hiding",
@@ -34,6 +36,7 @@ var categories = [
     "pokemon",
     "pugs",
     "smile",
+    "star wars",
     "thumbs-up",
 ]
 var gifs = [
@@ -196,6 +199,13 @@ var gifs = [
         "skate party wipeout.gif",
     ],
     [
+        "thirsty.gif",
+    ],
+    [
+        "pretending.gif",
+        "regrets.gif",
+    ],
+    [
         "lizard machine.gif",
         "moonwalking minihorse.gif",
         "power wheel.gif",
@@ -285,6 +295,9 @@ var gifs = [
     ],
     [
         "arnold.gif",
+    ],
+    [
+        "vader.gif",
     ],
     [
         "chinese.gif",
