@@ -29,23 +29,22 @@ var init = function() // Runs on page load
 
 var loadMobileGifs = function() // Automatically load GIF previews if in the frame
 {
-	// if (typeof window.orientation !== 'undefined') // Ghetto check for mobile browsers
-	// {
+	if (typeof window.orientation !== 'undefined') // Ghetto check for mobile browsers
+	{
 		var gifs = document.getElementById('gifs').getElementsByTagName('li')
 
 		for (var i = 0; i < gifs.length; i++)
 		{
 			if (isVisible(gifs[i]))
 			{
-				console.log(gifs[i])
-				gifs[i].fireEvent('onmouseover');
+				gifs[i].onmouseover()
 			}
 			else
 			{
-				gifs[i].fireEvent('onmouseout');
+				gifs[i].onmouseout()
 			}
 		}
-	// }
+	}
 }
 
 	var isVisible = function(li)
