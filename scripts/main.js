@@ -57,20 +57,28 @@ var load_category = function(index)
 				title.innerHTML = category
 			li.appendChild(title)
 
-			set_mouseover(title, gif, category, filename) // For proper closure
+			set_title_mouseover(title, gif, category, filename) // For proper closure
 
 			li.onclick = function() { window.open(location.href + '#' + category) }
 		}
 		else
 		{
+			set_preview_mouseover(gif, category, filename) // For proper closure
+
 			li.onclick = function() { window.open('gifs/' + category + '/' + filename) }
 		}
 
 		ul.appendChild(li)
 	}
 
-		var set_mouseover = function(title, gif, category, filename) // For proper closure
+		var set_title_mouseover = function(title, gif, category, filename) // For proper closure
 		{
-			title.onmouseover = function() { console.log('test'); gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
-			title.onmouseout = function() { console.log('test'); gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
+			title.onmouseover = function() { gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
+			title.onmouseout = function() { gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
+		}
+
+		var set_preview_mouseover = function(gif, category, filename) // For proper closure
+		{
+			gif.onmouseover = function() { gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
+			gif.onmouseout = function() { gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
 		}
