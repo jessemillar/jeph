@@ -57,7 +57,7 @@ var loadMobileGifs = function() // Automatically load GIF previews if in the fra
 
 		return (
 			rect.bottom >= 0 &&
-			rect.top <= (window.innerHeight || document.documentElement.clientHeight) /*or $(window).height() */
+			rect.top <= (window.innerHeight || document.documentElement.clientHeight)
 		)
 	}
 
@@ -82,21 +82,24 @@ var loadCategory = function(index)
 		var ul = document.getElementById('gifs')
 		var li = document.createElement('li')
 
-		if (random(2) == 0)
-		{
-			li.style.backgroundImage = "url('images/loading_0.png')"
-		}
-		else
-		{
-			li.style.backgroundImage = "url('images/loading_1.png')"
-		}
+		var preview = document.createElement('div')
+			preview.className = "preview"
+			preview.style.backgroundImage = "url('previews/" + category + "/" + filename + "')"
+		li.appendChild(preview)
+
+		var loading = document.createElement('div')
+			loading.className = "loading"
+			loading.style.backgroundImage = "url('images/loading.png')"
+			loading.style.display = "none"
+		li.appendChild(loading)
 
 		var gif = document.createElement('div')
 			gif.className = "gif"
-			gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')"
+			gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')"
+			gif.style.display = "none"
 		li.appendChild(gif)
 
-		setMouseover(li, gif, category, filename)
+		setMouseover(li, preview, loading, gif, category, filename)
 
 		if (making_index)
 		{
@@ -115,8 +118,17 @@ var loadCategory = function(index)
 		ul.appendChild(li)
 	}
 
-		var setMouseover = function(li, gif, category, filename) // For proper closure
+		var setMouseover = function(li, preview, loading, gif, category, filename) // For proper closure
 		{
-			li.onmouseover = function() { gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
-			li.onmouseout = function() { gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
+			li.onmouseover = function()
+			{
+				loading.style.display = 'block'
+				gif.style.display = 'block'
+			}
+			
+			li.onmouseout = function()
+			{
+				loading.style.display = 'none'
+				gif.style.display = 'none'
+			}
 		}
