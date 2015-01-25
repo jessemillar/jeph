@@ -82,13 +82,13 @@ var loadCategory = function(index)
 		var ul = document.getElementById('gifs')
 		var li = document.createElement('li')
 
-		if (random(1) == 0)
+		if (random(2) == 0)
 		{
-			li.backgroundImage = "url('../images/loading_0.gif')"
+			li.backgroundImage = "url('images/loading_0.gif')"
 		}
 		else
 		{
-			li.backgroundImage = "url('../images/loading_1.gif')"
+			li.backgroundImage = "url('images/loading_1.gif')"
 		}
 
 		var gif = document.createElement('div')
