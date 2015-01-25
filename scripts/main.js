@@ -29,22 +29,23 @@ var init = function() // Runs on page load
 
 var loadMobileGifs = function() // Automatically load GIF previews if in the frame
 {
-	if (typeof window.orientation !== 'undefined') // Ghetto check for mobile browsers
-	{
+	// if (typeof window.orientation !== 'undefined') // Ghetto check for mobile browsers
+	// {
 		var gifs = document.getElementById('gifs').getElementsByTagName('li')
 
 		for (var i = 0; i < gifs.length; i++)
 		{
 			if (isVisible(gifs[i]))
 			{
-				gifs[i].onmouseover();
+				console.log(gifs[i])
+				gifs[i].fireEvent('onmouseover');
 			}
 			else
 			{
-				gifs[i].onmouseout();
+				gifs[i].fireEvent('onmouseout');
 			}
 		}
-	}
+	// }
 }
 
 	var isVisible = function(li)
@@ -85,6 +86,8 @@ var loadCategory = function(index)
 			gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')"
 		li.appendChild(gif)
 
+		setMouseover(li, gif, category, filename)
+
 		if (making_index)
 		{
 			var title = document.createElement('div')
@@ -92,28 +95,18 @@ var loadCategory = function(index)
 				title.innerHTML = category
 			li.appendChild(title)
 
-			setTitleMouseover(title, gif, category, filename) // For proper closure
-
 			li.onclick = function() { location.assign(location.href + '?' + category); history.pushState() }
 		}
 		else
 		{
-			setPreviewMouseover(gif, category, filename) // For proper closure
-
 			li.onclick = function() { window.open('gifs/' + category + '/' + filename) }
 		}
 
 		ul.appendChild(li)
 	}
 
-		var setTitleMouseover = function(title, gif, category, filename) // For proper closure
+		var setMouseover = function(li, gif, category, filename) // For proper closure
 		{
-			title.onmouseover = function() { gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
-			title.onmouseout = function() { gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
-		}
-
-		var setPreviewMouseover = function(gif, category, filename) // For proper closure
-		{
-			gif.onmouseover = function() { gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
-			gif.onmouseout = function() { gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
+			li.onmouseover = function() { gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
+			li.onmouseout = function() { gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
 		}
