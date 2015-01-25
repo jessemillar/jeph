@@ -8,7 +8,11 @@ var init = function() // Runs on page load
 	if (location.href.indexOf("?") > -1) // If there is a URL parameter
 	{
 		var parameter = location.href.substring(location.href.indexOf("?") + 1, location.href.length)
+
+		for (var i = 0; i < 5; i++) // Ghetto...
+		{
 			parameter = parameter.replace('%20', ' ') // Get rid of spaces in URL parameters on the backend
+		}
 
 		if (categories.indexOf(parameter) > -1)
 		{
