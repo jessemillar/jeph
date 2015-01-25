@@ -46,7 +46,6 @@ var gifs = [
         "dark knight.gif",
         "giphy.gif",
         "jammin jake.gif",
-        "mind blown.gif",
     ],
     [
         "aha.gif",
@@ -194,6 +193,7 @@ var gifs = [
     [
         "dance.gif",
         "forklift crash.gif",
+        "hobbits.gif",
         "jedi dog.gif",
         "mascot.gif",
         "monday crash.gif",

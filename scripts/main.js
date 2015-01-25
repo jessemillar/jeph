@@ -12,7 +12,7 @@ var init = function() // Runs on page load
 
 		if (categories.indexOf(parameter) > -1)
 		{
-			load_category(categories.indexOf(parameter))
+			loadCategory(categories.indexOf(parameter))
 		}
 		else
 		{
@@ -21,27 +21,61 @@ var init = function() // Runs on page load
 	}
 	else
 	{
-		load_index()
+		loadIndex()
+	}
+
+	loadMobileGifs()
+}
+
+var loadMobileGifs = function() // Automatically load GIF previews if in the frame
+{
+	if (typeof window.orientation !== 'undefined') // Ghetto check for mobile browsers
+	{
+		var gifs = document.getElementById('gifs').getElementsByTagName('li')
+
+		for (var i = 0; i < gifs.length; i++)
+		{
+			if (isVisible(gifs[i]))
+			{
+				gifs[i].onmouseover();
+			}
+			else
+			{
+				gifs[i].onmouseout();
+			}
+		}
 	}
 }
 
-var load_index = function()
+	var isVisible = function(li)
+	{
+		var rect = li.getBoundingClientRect()
+
+		return (
+			rect.top >= 0 &&
+			rect.left >= 0 &&
+			rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+			rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+		)
+	}
+
+var loadIndex = function()
 {
 	for (var i = 0; i < categories.length; i++)
 	{
-		make_preview(categories[i], gifs[i][random(gifs[i].length)], true)
+		makePreview(categories[i], gifs[i][random(gifs[i].length)], true)
 	}
 }
 
-var load_category = function(index)
+var loadCategory = function(index)
 {
 	for (var i = 0; i < gifs[index].length; i++)
 	{
-		make_preview(categories[index], gifs[index][i], false)
+		makePreview(categories[index], gifs[index][i], false)
 	}
 }
 
-	var make_preview = function(category, filename, making_index)
+	var makePreview = function(category, filename, making_index)
 	{
 		var ul = document.getElementById('gifs')
 		var li = document.createElement('li')
@@ -58,13 +92,13 @@ var load_category = function(index)
 				title.innerHTML = category
 			li.appendChild(title)
 
-			set_title_mouseover(title, gif, category, filename) // For proper closure
+			setTitleMouseover(title, gif, category, filename) // For proper closure
 
 			li.onclick = function() { location.assign(location.href + '?' + category); history.pushState() }
 		}
 		else
 		{
-			set_preview_mouseover(gif, category, filename) // For proper closure
+			setPreviewMouseover(gif, category, filename) // For proper closure
 
 			li.onclick = function() { window.open('gifs/' + category + '/' + filename) }
 		}
@@ -72,13 +106,13 @@ var load_category = function(index)
 		ul.appendChild(li)
 	}
 
-		var set_title_mouseover = function(title, gif, category, filename) // For proper closure
+		var setTitleMouseover = function(title, gif, category, filename) // For proper closure
 		{
 			title.onmouseover = function() { gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
 			title.onmouseout = function() { gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
 		}
 
-		var set_preview_mouseover = function(gif, category, filename) // For proper closure
+		var setPreviewMouseover = function(gif, category, filename) // For proper closure
 		{
 			gif.onmouseover = function() { gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
 			gif.onmouseout = function() { gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
