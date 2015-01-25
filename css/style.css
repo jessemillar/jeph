@@ -28,8 +28,8 @@ body {
 
 		background-image: url('../images/loading.png');
 		background-repeat: no-repeat;
-		background-position: center;
-		
+		background-position: bottom right;
+
 		cursor: pointer;
 	}
 
@@ -54,7 +54,7 @@ body {
 
 			background-image: url('../images/loading.png');
 			background-repeat: no-repeat;
-			background-position: center;
+			background-position: bottom right;
 
 			z-index: 2;
 		}

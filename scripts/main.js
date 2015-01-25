@@ -95,7 +95,6 @@ var loadCategory = function(index)
 
 		var gif = document.createElement('div')
 			gif.className = "gif"
-			gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')"
 			gif.style.display = "none"
 		li.appendChild(gif)
 
@@ -124,11 +123,13 @@ var loadCategory = function(index)
 			{
 				loading.style.display = 'block'
 				gif.style.display = 'block'
+				gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')"
 			}
 			
 			li.onmouseout = function()
 			{
 				loading.style.display = 'none'
 				gif.style.display = 'none'
+				gif.style.backgroundImage = 'none' // Don't load every image we accidentally mouseover
 			}
 		}
