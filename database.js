@@ -31,6 +31,7 @@ var categories = [
     "hiding",
     "high five",
     "mind blown",
+    "no idea",
     "oh my",
     "penguins",
     "pokemon",
@@ -232,6 +233,12 @@ var gifs = [
         "mind blown.gif",
         "old spice.gif",
         "russell brand.gif",
+    ],
+    [
+        "doge.gif",
+        "driving.gif",
+        "leap.gif",
+        "maintenance.gif",
     ],
     [
         "austin powers.gif",

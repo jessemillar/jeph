@@ -5,9 +5,10 @@ var random = function(cap)
 
 var init = function() // Runs on page load
 {
-	if (location.href.indexOf("#") > -1) // If there is a URL parameter
+	if (location.href.indexOf("?") > -1) // If there is a URL parameter
 	{
-		var parameter = location.href.substring(location.href.indexOf("#") + 1, location.href.length)
+		var parameter = location.href.substring(location.href.indexOf("?") + 1, location.href.length)
+			parameter = parameter.replace('%20', ' ') // Get rid of spaces in URL parameters on the backend
 
 		if (categories.indexOf(parameter) > -1)
 		{
@@ -59,7 +60,7 @@ var load_category = function(index)
 
 			set_title_mouseover(title, gif, category, filename) // For proper closure
 
-			li.onclick = function() { window.open(location.href + '#' + category) }
+			li.onclick = function() { location.assign(location.href + '?' + category); history.pushState() }
 		}
 		else
 		{

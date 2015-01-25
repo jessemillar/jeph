@@ -68,7 +68,7 @@ body {
 		}
 
 			#gifs .title:hover {
-				background-color: rgba(0, 0, 0, 0.5);
+				background-color: rgba(0, 0, 0, 0.35);
 			}
 
 @media (min-width: 560px) { /* This is for small desktops */
