@@ -47,7 +47,7 @@ var load_category = function(index)
 
 		var gif = document.createElement('div')
 			gif.className = "gif"
-			gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')"
+			gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')"
 		li.appendChild(gif)
 
 		if (making_index)
@@ -56,6 +56,8 @@ var load_category = function(index)
 				title.className = "title"
 				title.innerHTML = category
 			li.appendChild(title)
+
+			set_mouseover(title, gif, category, filename) // For proper closure
 
 			li.onclick = function() { window.open(location.href + '#' + category) }
 		}
@@ -66,3 +68,9 @@ var load_category = function(index)
 
 		ul.appendChild(li)
 	}
+
+		var set_mouseover = function(title, gif, category, filename) // For proper closure
+		{
+			title.onmouseover = function() { console.log('test'); gif.style.backgroundImage = "url('gifs/" + category + "/" + filename + "')" }
+			title.onmouseout = function() { console.log('test'); gif.style.backgroundImage = "url('previews/" + category + "/" + filename + "')" }
+		}
