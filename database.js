@@ -52,6 +52,7 @@ var gifs = [
     ],
     [
         "chuck norris split.gif",
+        "fire whip.gif",
         "kia hamsters.gif",
         "skate rope.gif",
         "split.gif",
