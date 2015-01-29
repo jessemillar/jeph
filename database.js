@@ -1,8 +1,8 @@
 var categories = [
     "adventure time",
     "aha",
+    "awesome",
     "awkward",
-    "badawesome",
     "banhammer",
     "boom",
     "burn",
@@ -51,12 +51,13 @@ var gifs = [
         "aha.gif",
     ],
     [
-        "white guys.gif",
-    ],
-    [
         "chuck norris split.gif",
+        "kia hamsters.gif",
         "skate rope.gif",
         "split.gif",
+    ],
+    [
+        "white guys.gif",
     ],
     [
         "thor banhammer.gif",
@@ -116,6 +117,7 @@ var gifs = [
     [
         "bane.gif",
         "batman.gif",
+        "beer arm.gif",
         "dancin.gif",
         "hammer time.gif",
         "more stomrtroopin.gif",
