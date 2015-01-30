@@ -19,6 +19,7 @@ var categories = [
     "distracted",
     "doge",
     "done",
+    "education",
     "epic",
     "excited",
     "facepalms",
@@ -152,6 +153,9 @@ var gifs = [
     ],
     [
         "hand wipe.gif",
+    ],
+    [
+        "animation process.gif",
     ],
     [
         "beard slap.gif",
