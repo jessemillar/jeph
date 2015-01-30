@@ -124,6 +124,7 @@ var gifs = [
     ],
     [
         "hamster.gif",
+        "legolas.gif",
         "money baller.gif",
         "paul rudd.gif",
         "skateboard.gif",
