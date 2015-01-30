@@ -12,7 +12,6 @@ var categories = [
     "confident",
     "contempt",
     "corgis",
-    "crying",
     "dancing",
     "deal with it",
     "defused",
@@ -36,6 +35,7 @@ var categories = [
     "penguins",
     "pokemon",
     "pugs",
+    "sad",
     "smile",
     "star wars",
     "thumbs-up",
@@ -108,13 +108,6 @@ var gifs = [
         "snowball.gif",
         "swing.gif",
         "wake up.gif",
-    ],
-    [
-        "bugs bunny.gif",
-        "gushing.gif",
-        "jim.gif",
-        "obama.gif",
-        "peter parker.gif",
     ],
     [
         "bane.gif",
@@ -195,6 +188,7 @@ var gifs = [
         "worf.gif",
     ],
     [
+        "baby fight.gif",
         "dance.gif",
         "forklift crash.gif",
         "hobbits.gif",
@@ -314,6 +308,14 @@ var gifs = [
         "toilet.gif",
         "windshield wipers.gif",
         "wut.gif",
+    ],
+    [
+        "bugs bunny.gif",
+        "gushing.gif",
+        "jim.gif",
+        "obama.gif",
+        "peter parker.gif",
+        "pooh.gif",
     ],
     [
         "arnold.gif",
