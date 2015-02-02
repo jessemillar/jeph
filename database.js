@@ -12,9 +12,11 @@ var categories = [
     "confident",
     "contempt",
     "corgis",
+    "cute",
     "dancing",
     "deal with it",
     "defused",
+    "derp",
     "disgust",
     "distracted",
     "doge",
@@ -111,6 +113,10 @@ var gifs = [
         "wake up.gif",
     ],
     [
+        "hedgehog yawn.gif",
+        "learning to catch.gif",
+    ],
+    [
         "bane.gif",
         "batman.gif",
         "beer arm.gif",
@@ -136,6 +142,9 @@ var gifs = [
         "macgyver.gif",
     ],
     [
+        "thoon.gif",
+    ],
+    [
         "depp.gif",
         "disgust.gif",
         "disgusted.gif",
@@ -157,6 +166,7 @@ var gifs = [
     ],
     [
         "animation process.gif",
+        "coraline.gif",
     ],
     [
         "beard slap.gif",
