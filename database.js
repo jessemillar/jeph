@@ -57,6 +57,7 @@ var gifs = [
         "chuck norris split.gif",
         "djokovic.gif",
         "fire whip.gif",
+        "happy birthday.gif",
         "kia hamsters.gif",
         "skate rope.gif",
         "split.gif",
@@ -115,6 +116,7 @@ var gifs = [
     [
         "hedgehog yawn.gif",
         "learning to catch.gif",
+        "lemur lollipops.gif",
     ],
     [
         "bane.gif",
@@ -167,6 +169,7 @@ var gifs = [
     [
         "animation process.gif",
         "coraline.gif",
+        "radian.gif",
     ],
     [
         "beard slap.gif",
@@ -211,6 +214,7 @@ var gifs = [
         "mascot.gif",
         "monday crash.gif",
         "skate party wipeout.gif",
+        "thanks obama.gif",
     ],
     [
         "thirsty.gif",
@@ -253,6 +257,7 @@ var gifs = [
     [
         "commercial.gif",
         "jimmy.gif",
+        "liftoff.gif",
         "magic.gif",
         "mind blown.gif",
         "old spice.gif",
@@ -345,6 +350,7 @@ var gifs = [
     ],
     [
         "arnold.gif",
+        "obama selfie.gif",
     ],
     [
         "vader.gif",
@@ -353,6 +359,7 @@ var gifs = [
         "chinese.gif",
         "chuck norris.gif",
         "levar burton.gif",
+        "obama biden.gif",
         "suits.gif",
         "terminator.gif",
     ],
