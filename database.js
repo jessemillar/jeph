@@ -363,6 +363,7 @@ var gifs = [
         "vader.gif",
     ],
     [
+        "audience member.gif",
         "chinese.gif",
         "chuck norris.gif",
         "levar burton.gif",
