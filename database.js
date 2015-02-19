@@ -54,6 +54,7 @@ var gifs = [
         "aha.gif",
     ],
     [
+        "balance.gif",
         "chuck norris split.gif",
         "djokovic.gif",
         "fire whip.gif",
@@ -124,6 +125,7 @@ var gifs = [
         "batman.gif",
         "beer arm.gif",
         "dancin.gif",
+        "dumblin.gif",
         "hammer time.gif",
         "more stomrtroopin.gif",
         "napoleon-dance.gif",
@@ -145,6 +147,7 @@ var gifs = [
         "macgyver.gif",
     ],
     [
+        "business deal.gif",
         "thoon.gif",
     ],
     [
@@ -307,6 +310,7 @@ var gifs = [
     [
         "avengers.gif",
         "awkward.gif",
+        "bobble.gif",
         "calm down.gif",
         "chocolate factory.gif",
         "common pug.gif",
@@ -336,7 +340,9 @@ var gifs = [
         "sleepy.gif",
         "smiling.gif",
         "so majestic.gif",
+        "stairs.gif",
         "toilet.gif",
+        "unicorn.gif",
         "windshield wipers.gif",
         "wink.gif",
         "wut.gif",
