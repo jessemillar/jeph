@@ -240,6 +240,7 @@ var gifs = [
         "wut.gif",
     ],
     [
+        "darth haters.gif",
         "lizard machine.gif",
         "moonwalking minihorse.gif",
         "power wheel.gif",
