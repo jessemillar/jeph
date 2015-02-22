@@ -4,9 +4,11 @@ var categories = [
     "awesome",
     "awkward",
     "banhammer",
+    "batman",
     "boom",
     "burn",
     "careful",
+    "cats",
     "cinemagraphs",
     "clap",
     "confident",
@@ -20,6 +22,7 @@ var categories = [
     "disgust",
     "distracted",
     "doge",
+    "dogs",
     "done",
     "education",
     "epic",
@@ -72,6 +75,10 @@ var gifs = [
         "thor banhammer.gif",
     ],
     [
+        "batman hotdog.gif",
+        "batman robin jammin.gif",
+    ],
+    [
         "atomic bomb.gif",
         "booyah.gif",
         "fist bump.gif",
@@ -84,7 +91,11 @@ var gifs = [
         "sand bag.gif",
     ],
     [
+        "regret.gif",
+    ],
+    [
         "dat kickflip.gif",
+        "hypnoball.gif",
         "pour.gif",
         "raining.gif",
     ],
@@ -131,6 +142,7 @@ var gifs = [
         "more stomrtroopin.gif",
         "napoleon-dance.gif",
         "shufflin robot.gif",
+        "spider club.gif",
         "stormtroopin.gif",
         "yoda.gif",
     ],
@@ -164,9 +176,14 @@ var gifs = [
         "up.gif",
     ],
     [
+        "dance.gif",
         "firefox.gif",
         "space.gif",
         "work.gif",
+    ],
+    [
+        "clever dog.gif",
+        "dinner time.gif",
     ],
     [
         "hand wipe.gif",
@@ -272,6 +289,7 @@ var gifs = [
     [
         "doge.gif",
         "driving.gif",
+        "frantic spaceman.gif",
         "leap.gif",
         "maintenance.gif",
     ],
