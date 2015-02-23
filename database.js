@@ -190,6 +190,7 @@ var gifs = [
         "clever dog.gif",
         "dig a hole.gif",
         "dinner time.gif",
+        "dolphin kiss.gif",
     ],
     [
         "hand wipe.gif",
@@ -209,6 +210,7 @@ var gifs = [
     ],
     [
         "ace ventura.gif",
+        "ahhh yiss.gif",
         "bboy bear.gif",
         "cookie monster.gif",
         "excited baby.gif",
