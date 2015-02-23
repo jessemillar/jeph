@@ -64,6 +64,7 @@ var gifs = [
         "fire whip.gif",
         "happy birthday.gif",
         "kia hamsters.gif",
+        "obstacle course.gif",
         "skate rope.gif",
         "split.gif",
     ],
@@ -73,10 +74,12 @@ var gifs = [
     ],
     [
         "thor banhammer.gif",
+        "wwe.gif",
     ],
     [
         "batman hotdog.gif",
         "batman robin jammin.gif",
+        "move your body.gif",
     ],
     [
         "atomic bomb.gif",
@@ -91,7 +94,9 @@ var gifs = [
         "sand bag.gif",
     ],
     [
+        "pizza.gif",
         "regret.gif",
+        "sacrifice is acceptable.gif",
     ],
     [
         "dat kickflip.gif",
@@ -183,6 +188,7 @@ var gifs = [
     ],
     [
         "clever dog.gif",
+        "dig a hole.gif",
         "dinner time.gif",
     ],
     [
@@ -192,6 +198,7 @@ var gifs = [
         "animation process.gif",
         "coraline.gif",
         "radian.gif",
+        "stop being stupid.gif",
     ],
     [
         "beard slap.gif",
@@ -216,6 +223,7 @@ var gifs = [
         "noice.gif",
         "snoop.gif",
         "super happy men.gif",
+        "super jelly boy.gif",
         "thumbs up.gif",
         "wooo.gif",
         "zoolander.gif",
@@ -233,8 +241,10 @@ var gifs = [
         "forklift crash.gif",
         "hobbits.gif",
         "jedi dog.gif",
+        "lag.gif",
         "mascot.gif",
         "monday crash.gif",
+        "seems legit.gif",
         "skate party wipeout.gif",
         "thanks obama.gif",
     ],
