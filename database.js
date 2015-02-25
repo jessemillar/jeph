@@ -37,6 +37,7 @@ var categories = [
     "hiding",
     "high five",
     "mind blown",
+    "motivational",
     "no idea",
     "oh my",
     "penguins",
@@ -67,6 +68,7 @@ var gifs = [
         "kia hamsters.gif",
         "obstacle course.gif",
         "off to school.gif",
+        "office warfare.gif",
         "skate rope.gif",
         "split.gif",
     ],
@@ -202,6 +204,8 @@ var gifs = [
         "dig a hole.gif",
         "dinner time.gif",
         "dolphin kiss.gif",
+        "dug.gif",
+        "receipt.gif",
     ],
     [
         "hand wipe.gif",
@@ -209,6 +213,8 @@ var gifs = [
     [
         "animation process.gif",
         "coraline.gif",
+        "corn syrup.gif",
+        "how keys work.gif",
         "radian.gif",
         "stop being stupid.gif",
     ],
@@ -309,6 +315,9 @@ var gifs = [
         "mind blown.gif",
         "old spice.gif",
         "russell brand.gif",
+    ],
+    [
+        "you are flawless.gif",
     ],
     [
         "doge.gif",
