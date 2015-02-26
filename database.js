@@ -110,6 +110,7 @@ var gifs = [
         "pizza.gif",
         "regret.gif",
         "sacrifice is acceptable.gif",
+        "sky diving.gif",
     ],
     [
         "dat kickflip.gif",
@@ -201,11 +202,14 @@ var gifs = [
     ],
     [
         "clever dog.gif",
+        "crawling.gif",
         "dig a hole.gif",
         "dinner time.gif",
         "dolphin kiss.gif",
         "dug.gif",
         "receipt.gif",
+        "staring contest.gif",
+        "this dog wins.gif",
     ],
     [
         "hand wipe.gif",
@@ -246,6 +250,7 @@ var gifs = [
         "super jelly boy.gif",
         "thumbs up.gif",
         "wooo.gif",
+        "yessss.gif",
         "zoolander.gif",
     ],
     [
