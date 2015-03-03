@@ -69,8 +69,10 @@ var gifs = [
         "obstacle course.gif",
         "off to school.gif",
         "office warfare.gif",
+        "pull my finger.gif",
         "skate rope.gif",
         "split.gif",
+        "thug life.gif",
     ],
     [
         "let me love you.gif",
@@ -107,12 +109,14 @@ var gifs = [
         "sand bag.gif",
     ],
     [
+        "minecraft.gif",
         "pizza.gif",
         "regret.gif",
         "sacrifice is acceptable.gif",
         "sky diving.gif",
     ],
     [
+        "dancing panda.gif",
         "dat kickflip.gif",
         "hypnoball.gif",
         "pour.gif",
@@ -147,6 +151,8 @@ var gifs = [
         "wake up.gif",
     ],
     [
+        "caught staring.gif",
+        "hamster band.gif",
         "hedgehog yawn.gif",
         "learning to catch.gif",
         "lemur lollipops.gif",
@@ -207,6 +213,7 @@ var gifs = [
         "dinner time.gif",
         "dolphin kiss.gif",
         "dug.gif",
+        "peek a boo.gif",
         "receipt.gif",
         "staring contest.gif",
         "this dog wins.gif",
@@ -216,9 +223,11 @@ var gifs = [
     ],
     [
         "animation process.gif",
+        "birds do this to simulate rain.gif",
         "coraline.gif",
         "corn syrup.gif",
         "how keys work.gif",
+        "one horse power.gif",
         "radian.gif",
         "stop being stupid.gif",
     ],
@@ -272,6 +281,8 @@ var gifs = [
         "seems legit.gif",
         "skate party wipeout.gif",
         "thanks obama.gif",
+        "the perfect fake.gif",
+        "the stig.gif",
     ],
     [
         "thirsty.gif",
@@ -415,6 +426,7 @@ var gifs = [
     ],
     [
         "arnold.gif",
+        "library creeper.gif",
         "obama selfie.gif",
     ],
     [
