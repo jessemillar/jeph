@@ -99,6 +99,7 @@ var gifs = [
     ],
     [
         "cat call.gif",
+        "cutest bear attack.gif",
         "forrest dance.gif",
         "jammin.gif",
         "majestic.gif",
@@ -135,6 +136,7 @@ var gifs = [
     [
         "dancing panda.gif",
         "dat kickflip.gif",
+        "giraffe wink.gif",
         "hypnoball.gif",
         "pour.gif",
         "raining.gif",
@@ -235,6 +237,7 @@ var gifs = [
         "dolphin kiss.gif",
         "dug.gif",
         "go go go.gif",
+        "i hate carrot cake.gif",
         "peek a boo.gif",
         "receipt.gif",
         "staring contest.gif",
@@ -252,6 +255,8 @@ var gifs = [
         "how keys work.gif",
         "how to troll.gif",
         "one horse power.gif",
+        "paper towels.gif",
+        "pop tart factory.jpg",
         "radian.gif",
         "stop being stupid.gif",
     ],
@@ -309,6 +314,7 @@ var gifs = [
         "the stig.gif",
     ],
     [
+        "busy day at the office.gif",
         "gullzilla.gif",
         "heavy metal.gif",
         "teasing leo.gif",

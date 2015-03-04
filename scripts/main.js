@@ -5,9 +5,9 @@ var random = function(cap)
 
 var init = function() // Runs on page load
 {
-	if (location.href.indexOf("#") > -1) // If there is a URL parameter
+	if (location.href.indexOf("?") > -1) // If there is a URL parameter
 	{
-		var parameter = location.href.substring(location.href.indexOf("#") + 1, location.href.length)
+		var parameter = location.href.substring(location.href.indexOf("?") + 1, location.href.length)
 
 		for (var i = 0; i < 5; i++) // Ghetto...
 		{
@@ -107,7 +107,7 @@ var loadCategory = function(index)
 				title.innerHTML = category
 			li.appendChild(title)
 
-			li.onclick = function() { location.assign(location.href + '#' + category); history.pushState() }
+			li.onclick = function() { location.assign(location.href + '?' + category); history.pushState() }
 		}
 		else
 		{
