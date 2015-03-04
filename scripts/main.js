@@ -107,7 +107,7 @@ var loadCategory = function(index)
 				title.innerHTML = category
 			li.appendChild(title)
 
-			li.onclick = function() { location.assign(location.href + '?' + category); history.pushState() }
+			li.onclick = function() { location.assign(location.href + '#' + category); history.pushState() }
 		}
 		else
 		{
