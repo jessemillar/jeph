@@ -176,6 +176,7 @@ var gifs = [
         "hedgehog yawn.gif",
         "learning to catch.gif",
         "lemur lollipops.gif",
+        "owl hat.gif",
     ],
     [
         "bane.gif",
