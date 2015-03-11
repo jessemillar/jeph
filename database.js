@@ -182,6 +182,7 @@ var gifs = [
         "bane.gif",
         "batman.gif",
         "beer arm.gif",
+        "care to dance.gif",
         "dancin.gif",
         "dumblin.gif",
         "hammer time.gif",
