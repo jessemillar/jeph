@@ -126,6 +126,7 @@ var gifs = [
         "guitar.gif",
         "it was you.gif",
         "jedi kittens.gif",
+        "just friends.gif",
         "minecraft.gif",
         "pizza.gif",
         "racoon thief.gif",
@@ -243,6 +244,7 @@ var gifs = [
         "get in the car.gif",
         "go go go.gif",
         "i hate carrot cake.gif",
+        "just friends.gif",
         "nice to meet you.gif",
         "not good as escalators.gif",
         "peek a boo.gif",
@@ -267,6 +269,7 @@ var gifs = [
         "paper towels.gif",
         "pop tart factory.jpg",
         "radian.gif",
+        "solar system.gif",
         "stop being stupid.gif",
     ],
     [
