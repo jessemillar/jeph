@@ -123,6 +123,7 @@ var gifs = [
     [
         "cat fight in the making.gif",
         "caterpillar.gif",
+        "cumulus kitty.gif",
         "guitar.gif",
         "it was you.gif",
         "jedi kittens.gif",
@@ -212,6 +213,7 @@ var gifs = [
     ],
     [
         "business deal.gif",
+        "confused.gif",
         "thoon.gif",
     ],
     [
@@ -265,6 +267,7 @@ var gifs = [
         "corn syrup.gif",
         "how keys work.gif",
         "how to troll.gif",
+        "ocean movement.gif",
         "one horse power.gif",
         "paper towels.gif",
         "pop tart factory.jpg",
