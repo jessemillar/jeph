@@ -255,6 +255,7 @@ var gifs = [
         "staring contest.gif",
         "this dog wins.gif",
         "which one of you got into the garbage.gif",
+        "you rang.gif",
     ],
     [
         "hand wipe.gif",
