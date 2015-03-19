@@ -173,6 +173,7 @@ var gifs = [
         "wake up.gif",
     ],
     [
+        "bat yawn.gif",
         "caught staring.gif",
         "hamster band.gif",
         "hedgehog yawn.gif",
