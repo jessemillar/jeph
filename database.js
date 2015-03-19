@@ -409,6 +409,7 @@ var gifs = [
     [
         "hurts my brain.gif",
         "pleasant.gif",
+        "starry night reflections.gif",
     ],
     [
         "boss.gif",
