@@ -368,6 +368,7 @@ var gifs = [
         "in the hood.gif",
         "just graduated college.gif",
         "laser pointer.gif",
+        "life of a bird.gif",
         "moth pit.gif",
         "muscle car.gif",
         "paper towels.gif",
