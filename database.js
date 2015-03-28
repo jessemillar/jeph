@@ -189,6 +189,7 @@ var gifs = [
         "hedgehog yawn.gif",
         "learning to catch.gif",
         "lemur lollipops.gif",
+        "life of a bird.gif",
         "owl hat.gif",
     ],
     [
@@ -361,6 +362,7 @@ var gifs = [
         "benny the bull.gif",
         "busy day at the office.gif",
         "destroy all the evidence.gif",
+        "frog.gif",
         "gullzilla.gif",
         "guuuuuuurl please.gif",
         "hacked.gif",
@@ -368,7 +370,6 @@ var gifs = [
         "in the hood.gif",
         "just graduated college.gif",
         "laser pointer.gif",
-        "life of a bird.gif",
         "moth pit.gif",
         "muscle car.gif",
         "paper towels.gif",
