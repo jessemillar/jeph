@@ -131,6 +131,7 @@ var gifs = [
         "sand bag.gif",
     ],
     [
+        "battle of the beasts.gif",
         "cat fight in the making.gif",
         "caterpillar.gif",
         "cumulus kitty.gif",
@@ -361,6 +362,7 @@ var gifs = [
         "hand wipe.gif",
     ],
     [
+        "airbags.gif",
         "animation process.gif",
         "birds do this to simulate rain.gif",
         "cd bubbles.gif",
