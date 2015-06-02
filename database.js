@@ -196,6 +196,7 @@ var gifs = [
     ],
     [
         "bat yawn.gif",
+        "birthday horse.gif",
         "bunny piano.gif",
         "caught staring.gif",
         "finger paint.gif",
@@ -466,6 +467,7 @@ var gifs = [
         "backwards cotton candy.gif",
         "banana man.gif",
         "benny the bull.gif",
+        "birthday horse.gif",
         "bloody kids.gif",
         "busy day at the office.gif",
         "cheezy.gif",
@@ -479,6 +481,7 @@ var gifs = [
         "hand off.gif",
         "heavy metal.gif",
         "how canadians cheat.gif",
+        "i got you.gif",
         "in the hood.gif",
         "instagram.gif",
         "jaws.gif",
