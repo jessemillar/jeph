@@ -12,8 +12,6 @@ Chuck whatever GIFs you want in your collection in the /gifs folder inside folde
 
 This will create static preview images of each GIF (because bandwidth is an endangered animal) and create a JSON "database" of the filenames. The .sh script is necessary since GitHub Pages doesn't give us any sort of dynamic database.
 
-Enjoy!
-
 Notes
 -
 
