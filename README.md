@@ -1,10 +1,7 @@
-Sometimes GIFs are better than words.
+Sometimes GIFs are better than words
+-
 
-I love [Giphy](http://www.giphy.com/), but it's pretty slow sometimes and there're some GIFs on there I don't like so much.
-
-This is a little project I put together to effectively run my own version of Giphy on GitHub Pages.
-
-Feel free to fork, pull, whatevs.
+I love [Giphy](http://www.giphy.com/), but it's pretty slow sometimes and there're some GIFs on there I don't like so much. This is a little project I put together to effectively run my own version of Giphy on GitHub Pages.
 
 Instructions
 -
