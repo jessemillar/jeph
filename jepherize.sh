@@ -1,6 +1,6 @@
 #!/bin/sh
 
-printf "Starting Jepherization\n"
+printf "Starting Jepherization"
 
 FILE="database.js"
 
@@ -30,14 +30,14 @@ echo "]" >> $FILE
 echo "var gifs = [" >> $FILE # List the gifs
 
 for i in "gifs"/*; do
-	printf "0" # Show progress for directories
+	printf "\n[ $i ] " # Show progress for directories
 
 	echo "    [" >> $FILE
 
 	for j in "$i"/*; do
 		echo "        \"$(basename "$j")\"," >> $FILE # Make each gif a child of the category object
 
-		if [ ! -f "previews/$(basename "$i")/$(basename "$j")" ]
+		if [ ! -f "previews/$(basename "$i")/$(basename "$j")" ] # Check if we already have a preview of the current GIF
 		then
 			printf "o" # Show a lowercase "o" if we need to generate a preview for the current GIF
 			convert "gifs/$(basename "$i")/$(basename "$j")[0]" "previews/$(basename "$i")/$(basename "$j")" # Make a static preview for each GIF from the first frame
@@ -51,4 +51,4 @@ done
 
 echo "]" >> $FILE
 
-printf "\nFinished Jepherization"
+printf "\nFinished Jepherization\n"
