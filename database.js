@@ -155,6 +155,7 @@ var gifs = [
         "regret.gif",
         "sacrifice is acceptable.gif",
         "sky diving.gif",
+        "watching you.gif",
         "wuzzit.gif",
     ],
     [
@@ -198,6 +199,7 @@ var gifs = [
         "wake up.gif",
     ],
     [
+        "baby chipmunk.gif",
         "bat yawn.gif",
         "birthday horse.gif",
         "bunny piano.gif",
@@ -211,6 +213,7 @@ var gifs = [
         "lemur lollipops.gif",
         "life of a bird.gif",
         "mistimed bunnies.gif",
+        "my jam.gif",
         "owl hat.gif",
         "petting an owl.gif",
         "private.gif",
@@ -347,6 +350,7 @@ var gifs = [
         "monster.gif",
         "mop dogs.gif",
         "mummy.gif",
+        "my jam.gif",
         "near a stream.gif",
         "nice to meet you.gif",
         "nom.gif",
@@ -433,6 +437,7 @@ var gifs = [
         "peripheral.gif",
         "pop tart factory.jpg",
         "radian.gif",
+        "slow motion woodpecker.gif",
         "solar system.gif",
         "stop being stupid.gif",
         "titanic.gif",
@@ -496,6 +501,7 @@ var gifs = [
         "the perfect fake.gif",
         "the stig.gif",
         "unipoop.gif",
+        "we have liftoff.gif",
     ],
     [
         "50 cent.gif",
