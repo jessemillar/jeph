@@ -87,6 +87,7 @@ var gifs = [
         "paper airplane dump.gif",
         "ping pong boss.gif",
         "pull my finger.gif",
+        "robot samurai.gif",
         "skate rope.gif",
         "soccer.gif",
         "split.gif",
@@ -98,7 +99,7 @@ var gifs = [
     [
         "kiss.gif",
         "let me love you.gif",
-        "robot samurai.gif",
+        "no kisses.gif",
         "white guys.gif",
     ],
     [
