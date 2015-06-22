@@ -745,6 +745,7 @@ var gifs = [
     ],
     [
         "audience member.gif",
+        "batman.gif",
         "chinese.gif",
         "chuck norris.gif",
         "levar burton.gif",
