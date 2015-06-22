@@ -17,6 +17,6 @@ Enjoy!
 Notes
 -
 
-[ImageMagick](http://www.imagemagick.org/) is a required dependancy. When you run the "jepherize.sh" script, ImageMagick goes through and creates new preview images from the first frame of each GIF and shoves them in the /previews folder.
+[Gifsicle](http://www.lcdf.org/gifsicle/) is a required dependancy. When you run the "jepherize.sh" script, Gifsicle loops through your GIF collection, compresses large images when needed, and creates preview images from the first frame of each GIF before shoving them in the /previews folder.
 
 GIFs are housed in the /gifs folder. The heirarchy is /gifs/category/file.gif. Nested category folders are not supported.

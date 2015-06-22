@@ -49,7 +49,6 @@ var categories = [
     "sad",
     "smile",
     "star wars",
-    "the office",
     "thumbs-up",
 ]
 var gifs = [
@@ -402,6 +401,7 @@ var gifs = [
         "tug of war dogs.gif",
         "unicorn.gif",
         "wake up.gif",
+        "walking a hooman.gif",
         "wampa.gif",
         "washing the dog.gif",
         "which one of you got into the garbage.gif",
@@ -440,6 +440,7 @@ var gifs = [
         "radian.gif",
         "slow motion woodpecker.gif",
         "solar system.gif",
+        "stabbing a phone battery.gif",
         "stop being stupid.gif",
         "titanic.gif",
     ],
@@ -514,6 +515,7 @@ var gifs = [
         "biking food.gif",
         "birthday horse.gif",
         "bloody kids.gif",
+        "bored to death.gif",
         "breadcrumbs.gif",
         "busy day at the office.gif",
         "calculations.gif",
@@ -633,6 +635,7 @@ var gifs = [
     [
         "hurts my brain.gif",
         "infinite eye.gif",
+        "magic donut.gif",
         "pleasant.gif",
         "starry night reflections.gif",
         "static.gif",
@@ -738,9 +741,6 @@ var gifs = [
         "storm trooper accuracy.gif",
         "stormtroopin.gif",
         "vader.gif",
-    ],
-    [
-        "scissor me.gif",
     ],
     [
         "audience member.gif",
