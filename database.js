@@ -522,6 +522,7 @@ var gifs = [
         "cheezy.gif",
         "cushions.gif",
         "destroy all the evidence.gif",
+        "don't freak out.gif",
         "fabulous waterbender.gif",
         "false advertising.gif",
         "frog.gif",
