@@ -5,6 +5,12 @@ var random = function(cap)
 
 var init = function() // Runs on page load
 {
+	if (window.location.hash == '#_=_') { // Kill URL artifacts from Tumblr URL forwarding
+	    window.location.hash = ''; // For older browsers, leaves a # behind
+	    history.pushState('', document.title, window.location.pathname); // Nice and clean
+	    event.preventDefault(); // No page reload
+	}
+
 	if (location.href.indexOf("?") > -1) // If there is a URL parameter
 	{
 		var parameter = location.href.substring(location.href.indexOf("?") + 1, location.href.length)
