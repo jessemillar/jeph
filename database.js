@@ -443,6 +443,7 @@ var gifs = [
         "chicken powered image stabilizer.gif",
         "coraline.gif",
         "corn syrup.gif",
+        "curve ball.gif",
         "eclipse from a plane.gif",
         "fire with battery.gif",
         "how dogs drink.gif",
