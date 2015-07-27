@@ -522,6 +522,7 @@ var gifs = [
         "seems legit.gif",
         "semester slinky.gif",
         "skate party wipeout.gif",
+        "ten out of ten.gif",
         "thanks obama.gif",
         "the perfect fake.gif",
         "the stig.gif",
