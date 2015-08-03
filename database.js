@@ -195,6 +195,7 @@ var gifs = [
         "corgi heaven.gif",
         "fat legs.gif",
         "fishing.gif",
+        "floppy corgi.gif",
         "floppy fail.gif",
         "lifejacket jump.gif",
         "mind blown.gif",
@@ -329,6 +330,7 @@ var gifs = [
         "fine whatever.gif",
         "firework dog.gif",
         "fishing.gif",
+        "floppy corgi.gif",
         "floppy fail.gif",
         "flying.gif",
         "fridge.gif",
@@ -506,6 +508,7 @@ var gifs = [
         "dog leap.gif",
         "drunk robots.gif",
         "fireworks oops.gif",
+        "floppy corgi.gif",
         "floppy fail.gif",
         "forklift crash.gif",
         "hobbits.gif",
@@ -658,6 +661,7 @@ var gifs = [
     [
         "austin powers.gif",
         "fresh prince.gif",
+        "why.gif",
     ],
     [
         "hurts my brain.gif",
