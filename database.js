@@ -414,6 +414,7 @@ var gifs = [
         "tasted a lemon.gif",
         "this dog loves tennis.gif",
         "this dog wins.gif",
+        "this is dog.gif",
         "toilet.gif",
         "trampoline bulldog.gif",
         "trust.gif",
@@ -592,6 +593,7 @@ var gifs = [
         "tourists.gif",
         "truly disgusting.gif",
         "user experience.gif",
+        "whale hello there.gif",
         "who farted.gif",
     ],
     [
@@ -654,6 +656,7 @@ var gifs = [
         "leap.gif",
         "maintenance.gif",
         "no comment.gif",
+        "willis.gif",
     ],
     [
         "nope.jpg",
