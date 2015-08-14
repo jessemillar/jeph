@@ -89,6 +89,7 @@ var gifs = [
         "paper airplane dump.gif",
         "ping pong boss.gif",
         "pull my finger.gif",
+        "ready to ride.gif",
         "robot samurai.gif",
         "skate rope.gif",
         "smooth crash.gif",
@@ -314,6 +315,7 @@ var gifs = [
         "corgi goggles.gif",
         "corgi heaven.gif",
         "crawling.gif",
+        "cruising.gif",
         "cushions.gif",
         "dance.gif",
         "desert beast.gif",
@@ -511,6 +513,7 @@ var gifs = [
     ],
     [
         "baby fight.gif",
+        "caught from behind.gif",
         "cushions.gif",
         "dance.gif",
         "dog leap.gif",
