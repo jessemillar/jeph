@@ -520,6 +520,7 @@ var gifs = [
         "caught from behind.gif",
         "cushions.gif",
         "dance.gif",
+        "do not cheat traffic.gif",
         "dog leap.gif",
         "drunk robots.gif",
         "fireworks oops.gif",
