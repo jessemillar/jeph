@@ -216,6 +216,7 @@ var gifs = [
         "corgi goggles.gif",
         "excited for food.gif",
         "finger paint.gif",
+        "floof.gif",
         "floppy fail.gif",
         "hamster band.gif",
         "hedgehog weigh in.gif",
@@ -340,6 +341,7 @@ var gifs = [
         "fine whatever.gif",
         "firework dog.gif",
         "fishing.gif",
+        "floof.gif",
         "floppy corgi.gif",
         "floppy fail.gif",
         "flying.gif",
@@ -617,6 +619,7 @@ var gifs = [
         "whale hello there.gif",
         "what is this thing.gif",
         "who farted.gif",
+        "whoopie.gif",
     ],
     [
         "how to goat.gif",
