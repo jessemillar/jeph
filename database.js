@@ -536,6 +536,7 @@ var gifs = [
         "lighter dancing.jpg",
         "luck.gif",
         "mascot.gif",
+        "military simulator.gif",
         "minion flop.gif",
         "monday crash.gif",
         "pitch.gif",
