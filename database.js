@@ -617,6 +617,7 @@ var gifs = [
         "rainbow worm sacrifice.gif",
         "red.gif",
         "secret agent.gif",
+        "sucka.gif",
         "tactical reload.gif",
         "teasing leo.gif",
         "that escalated quickly.gif",
