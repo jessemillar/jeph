@@ -63,7 +63,9 @@ var gifs = [
     ],
     [
         "balance.gif",
+        "ballet.gif",
         "belly flop.gif",
+        "bmx practice.gif",
         "bunk bed.gif",
         "chair split lift.gif",
         "chuck norris split.gif",
