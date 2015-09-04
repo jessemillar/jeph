@@ -107,6 +107,7 @@ var gifs = [
         "sweet bmx trick.gif",
         "thug life.gif",
         "treadmill.gif",
+        "unemployed hogwarts wizard.gif",
         "virtual hug.gif",
         "vr sandbox.gif",
     ],
